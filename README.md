@@ -5,7 +5,7 @@ Library of scripts for creating the parallax effect on UI elements in Unity.
 [![Watch on GitHub](https://img.shields.io/github/watchers/RodionLodza/UIParallaxLibary.svg?style=social)](https://github.com/RodionLodza/UIParallaxLibary/watchers)
 [![Star on GitHub](https://img.shields.io/github/stars/RodionLodza/UIParallaxLibary.svg?style=social)](https://github.com/RodionLodza/UIParallaxLibary/stargazers)
 <br />
-<< [How does it work](#how-does-it-work) | [How to use](#how-to-use-this-library) | [Install](#how-to-install) | [Download](https://github.com/RodionLodza/FastPool/raw/master/FastPool.unitypackage) >>
+<< [How does it work](#how-does-it-work) | [How to use](#how-to-use-this-library) | [Install](#how-to-install) | [Download](https://github.com/RodionLodza/FastPool/raw/master/UIParallaxLibary.unitypackage) >>
 <br />
 <br />
 
