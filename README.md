@@ -35,11 +35,11 @@ UI elements are usually displayed orthogonally, so it is impossible to create a 
 <br />
 
 ## Parameters UIParallaxLayer
-* ParallaxLayerName - layer name (for ease of display)
-* ObjectsRect - array of RectTransform objects that belong to this layer
-* PosXMultiplier - the value at which the X position in the anchoredPosition of the objects changes
-* PosYMultiplier - the value at which the Y position in the anchoredPosition of the objects changes
-* InterpolationSpeed - parallax speed, in other words, the speed at which layer objects move and rotate
+* ***ParallaxLayerName*** - layer name (for ease of display)
+* ***ObjectsRect*** - array of RectTransform objects that belong to this layer
+* ***PosXMultiplier*** - the value at which the X position in the anchoredPosition of the objects changes
+* ***PosYMultiplier*** - the value at which the Y position in the anchoredPosition of the objects changes
+* ***InterpolationSpeed*** - parallax speed, in other words, the speed at which layer objects move and rotate
 
 ## How to install?
 1. Download `UIParallaxEffect.unitypackage` and using UnityPackageManager.
