@@ -26,9 +26,11 @@ UI elements are usually displayed orthogonally, so it is impossible to create a 
 ***First***, you need to place the main component of the parallax effect on the scene - the `UIParallaxEffect` script. It contains a set of `UIParallaxLayer` objects, which is an array of different UI elements with its parallax settings.
 
 > ***Important!*** `UIParallaxEffect` must be initialized and updated in the Start and Update methods (for this you can implement your own `UIParallaxManager` controller class (see the example in the project), or through any other controller).
+
 ![0](WikiImages/adding_manager.gif)
 
 ***Secondly***, you must define each `UIParallaxLayer` in the `UIParallaxEffect` component. `UIParallaxLayer` has several parameters that will be described below.
+
 ![0](WikiImages/filling_component.JPG)
 <br />
 
