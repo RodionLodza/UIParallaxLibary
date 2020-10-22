@@ -4,9 +4,26 @@ namespace UIParallax
 {
     public class UIParallaxEffect : MonoBehaviour
     {
-        [SerializeField] private UIParallaxLayer[] parallaxLayers;
+        [SerializeField] private bool autoUpdate = true;
+        [SerializeField] private UIParallaxLayer[] parallaxLayers = null;
 
-        private Vector3[][] startPosition;
+        private Vector3[][] startPosition = null;
+
+        private void Start()
+        {
+            if (autoUpdate)
+            {
+                Initialize();
+            }
+        }
+
+        private void Update()
+        {
+            if (autoUpdate)
+            {
+                RefreshParallaxEffect();
+            }
+        }
 
         public void Initialize()
         {
